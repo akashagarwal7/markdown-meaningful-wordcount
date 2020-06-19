@@ -2,7 +2,7 @@
 	"name": "wordcount",
 	"displayName": "Word Count",
 	"version": "0.1.0",
-	"publisher": "ms-vscode",
+	"publisher": "akashagarwal",
 	"description": "Markdown Meaningful Word Count - a status bar contribution that reports out the meaningful number of words in a Markdown document as you interact with it.",
 	"author": {
 		"name": "Akash Agarwal"
