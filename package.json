@@ -1,6 +1,6 @@
 {
-	"name": "wordcount",
-	"displayName": "Word Count",
+	"name": "markdown-meaningful-wordcount",
+	"displayName": "Markdown Meaningful Word Count",
 	"version": "0.2.0",
 	"publisher": "akashagarwal",
 	"description": "Markdown Meaningful Word Count - a status bar contribution that reports out the meaningful number of words in a Markdown document as you interact with it.",
@@ -21,7 +21,7 @@
 	],
 	"repository": {
 		"type": "git",
-		"url": "https://github.com/akashagarwal7/vscode-meaningful-wordcount.git"
+		"url": "https://github.com/akashagarwal7/markdown-meaningful-wordcount.git"
 	},
 	"engines": {
 		"vscode": "0.10.x"
