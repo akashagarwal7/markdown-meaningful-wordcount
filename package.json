@@ -3,9 +3,9 @@
 	"displayName": "Word Count",
 	"version": "0.1.0",
 	"publisher": "ms-vscode",
-	"description": "Markdown Word Count Example - a status bar contribution that reports out the number of words in a Markdown document as you interact with it.",
+	"description": "Markdown Meaningful Word Count - a status bar contribution that reports out the meaningful number of words in a Markdown document as you interact with it.",
 	"author": {
-		"name": "seanmcbreen"
+		"name": "Akash Agarwal"
 	},
 	"categories": [
 		"Other"
@@ -21,7 +21,7 @@
 	],
 	"repository": {
 		"type": "git",
-		"url": "https://github.com/Microsoft/vscode-wordcount.git"
+		"url": "https://github.com/akashagarwal7/vscode-meaningful-wordcount.git"
 	},
 	"engines": {
 		"vscode": "0.10.x"

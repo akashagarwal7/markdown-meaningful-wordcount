@@ -55,6 +55,8 @@ export class WordCounter {
     public _getWordCount(doc: TextDocument): number {
         let docContent = doc.getText();
 
+		// Get rid of all punctuation characters
+		docContent = docContent.replace(/[\!\"\#\$\%\&\'\(\)\*\+\,\-\.\/\:\;\<\=\>\?\@\[\\\]\^\_\`\{\|\}\~]*/g, '');
         // Parse out unwanted whitespace so the split is accurate
         docContent = docContent.replace(/(< ([^>]+)<)/g, '').replace(/\s+/g, ' ');
         docContent = docContent.replace(/^\s\s*/, '').replace(/\s\s*$/, '');
